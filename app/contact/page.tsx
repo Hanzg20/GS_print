@@ -57,7 +57,7 @@ export default function ContactPage() {
       {/* Quick Contact Cards */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Phone */}
             <a
               href="tel:613-452-0527"
@@ -69,8 +69,23 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
-              <p className="text-gray-600 mb-4">Available 24/7 for your convenience</p>
-              <p className="text-2xl font-bold text-yellow-600">613-452-0527</p>
+              <p className="text-gray-600 mb-4">Available 24/7</p>
+              <p className="text-xl font-bold text-yellow-600">613-452-0527</p>
+            </a>
+
+            {/* Email */}
+            <a
+              href="mailto:print@goldsky.ca"
+              className="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-all hover:scale-105 duration-300"
+            >
+              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-yellow-100 mb-6">
+                <svg className="h-8 w-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
+              <p className="text-gray-600 mb-4">Quick response time</p>
+              <p className="text-lg font-bold text-yellow-600">print@goldsky.ca</p>
             </a>
 
             {/* Location */}
@@ -82,7 +97,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Visit Us</h3>
-              <p className="text-gray-600 mb-4">Come see our work in person</p>
+              <p className="text-gray-600 mb-4">Come see our work</p>
               <p className="text-lg font-semibold text-gray-900">Kanata, Ottawa, ON</p>
             </div>
 
@@ -94,9 +109,9 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Business Hours</h3>
-              <p className="text-gray-600 mb-4">We&apos;re always open</p>
-              <p className="text-2xl font-bold text-yellow-600">OPEN 24 HOURS</p>
-              <p className="text-sm text-gray-500 mt-2">Drop off and pick up anytime</p>
+              <p className="text-gray-600 mb-4">Always open</p>
+              <p className="text-xl font-bold text-yellow-600">24 HOURS</p>
+              <p className="text-sm text-gray-500 mt-2">Drop off anytime</p>
             </div>
           </div>
         </div>
