@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/app/css/style.css";
+import "./globals.css";
 import PrintHeader from "@/components/print/print-header";
 import PrintFooter from "@/components/print/print-footer";
 
