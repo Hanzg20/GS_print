@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "rm -rf cache .next out && next build && rm -rf cache .next",
+    "build": "next build && rm -rf cache .next/cache",
     "build:local": "next build",
     "start": "next start",
     "lint": "next lint"
