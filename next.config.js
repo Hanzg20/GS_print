@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Removed 'output: export' to support middleware for multi-domain routing
-  // For Cloudflare Pages deployment, we'll use Cloudflare's routing features
+  output: 'export',  // Required for Cloudflare Pages static site deployment
   images: {
     unoptimized: true,  // Cloudflare Pages doesn't support Next.js image optimization
     remotePatterns: [

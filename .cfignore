@@ -1,0 +1,40 @@
+# Cloudflare Pages ignore file
+# Files and directories listed here will be excluded from deployment
+
+# Build cache files
+.next/cache/
+cache/
+
+# Development files
+node_modules/
+.git/
+.github/
+
+# Environment files
+.env*
+!.env.example
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.swp
+*.swo
+*~
+.eslintcache
