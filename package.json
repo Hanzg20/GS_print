@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "next build && rm -rf cache .next",
+    "build:cloudflare": "rm -rf cache .next out && next build && rm -rf cache .next",
     "start": "next start",
     "lint": "next lint"
   },
