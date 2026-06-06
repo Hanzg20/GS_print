@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:cloudflare": "rm -rf cache .next out && next build && rm -rf cache .next",
+    "build": "rm -rf cache .next out && next build && rm -rf cache .next",
+    "build:local": "next build",
     "start": "next start",
     "lint": "next lint"
   },
