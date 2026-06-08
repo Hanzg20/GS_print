@@ -26,7 +26,7 @@ export default function PrintFooter() {
   };
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="text-gray-300" style={{background: 'linear-gradient(to bottom right, #041C37, #0A2E5C)'}}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           {/* Company Info */}

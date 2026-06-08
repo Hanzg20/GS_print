@@ -17,7 +17,7 @@ export default function PrintHeader() {
   ];
 
   return (
-    <header className="bg-gray-900 text-white sticky top-0 z-50">
+    <header className="text-white sticky top-0 z-50" style={{background: 'linear-gradient(to bottom right, #041C37, #0A2E5C)'}}>
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
